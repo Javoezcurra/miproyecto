@@ -1,0 +1,380 @@
+
+
+/*Pagina principal*/
+
+.cuerpo{
+    
+background-color: #242422;
+background-image: url("FOTOS/FOTITO\ 1.jpg");
+background-repeat: no-repeat;
+
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+display: flex;
+ flex-direction: column;
+
+
+
+}
+
+
+
+.portada{
+    
+    color: white; 
+    font-family:
+     'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', 
+     Geneva, Verdana, sans-serif; 
+     text-align: center;}
+
+.facebook{
+    font-family:
+     Georgia, 'Times New Roman', Times, serif;
+      text-decoration:none;
+      display: flex;
+      flex-direction: row;
+      
+    
+    }
+.instagram{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     text-decoration:none;
+
+}
+
+
+.twitter{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-decoration:none;
+    
+    
+}
+
+
+.secciones{
+    word-spacing: 170px;
+    letter-spacing: 0.3em;
+    padding-bottom: 30px;
+
+    
+}
+.lista{
+    color:#92a2e7;
+    
+}
+.parrafo1 {
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size:large;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    
+   }
+
+
+.impro{
+
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: -30px;
+    background-color: rgb(8, 189, 53);
+margin-right: 120px;
+padding-left: 120px;
+transform: rotate(1deg);
+    
+}
+
+.impro2{
+
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    
+    
+}
+
+
+.parrafo2 {
+        color: white; 
+        font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    box-sizing: border-box;
+    margin-left: 80px;
+    margin-right: 220px;
+    font-size:large;
+   }
+
+
+.parrafo3 {
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align:right;
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-right: 125px;
+    font-size:large;
+}
+
+.reglasimpro{
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    box-sizing: border-box;
+    transform: rotate(-2deg);
+    background-color: #045dd8;
+    margin-left: 300px;
+      
+}
+
+
+
+
+
+
+.comentarios{
+    color: white;}
+
+
+.galeria{ 
+    color: white;
+    font-family:
+     'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', 
+     Geneva, Verdana, sans-serif; 
+     text-align: start;
+     font-size:xx-large;
+    background-color: red;
+    margin-top: 60px;
+    margin-right: 250px;
+}
+
+.Footer {
+    color: white;
+    margin-top: 30px;
+    word-spacing: 5px;
+    letter-spacing: 0.1em;
+}
+​
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+    
+    background-color: #D6E9FE;
+}
+
+
+.loguito {
+    display: flex;
+    justify-content: center;
+}
+
+.whats {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin: 50px 0px;
+    
+
+
+}
+
+.item-fixed {
+    position: fixed;
+    bottom:0;
+    right: 0;
+    margin-right:30px ;
+    margin-bottom: 5px;
+
+}
+
+.loguitoimpro{
+    position: fixed;
+    bottom:0;
+    right: 0;
+    margin-right:29px ;
+    margin-bottom: 62px;
+    
+    
+}
+/*contacto*/
+
+.cuerpocontacto{
+    
+    background-color:#111916;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    }
+
+/*historia*/
+
+
+.portadahistoria{
+    
+    color: white; 
+    font-family:
+     'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', 
+     Geneva, Verdana, sans-serif; 
+     text-align: center;}
+
+
+
+.cuerpohistoria{
+    
+    background-color:#111916;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+
+
+
+
+    .section {
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    }
+
+    .section2 {
+
+
+        margin-bottom: 60px;
+
+
+    }
+
+
+
+
+/*shop*/
+
+.cuerposhop{
+    
+    background-color:#111916;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    }
+
+    .carousel {
+        width:640px;
+        height:360px;
+        margin-top: 60px;
+       margin-bottom: 300px;
+       margin-left: 350px;
+        
+   }
+
+/*shows*/
+
+.cuerposhows{
+ 
+       
+    background-color:#111916;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    }
+
+
+/*miembros*/
+
+
+.portadamiembros{
+    margin-top: 60px;
+   
+    font-family:
+     'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', 
+     Geneva, Verdana, sans-serif; 
+     text-align: start;
+     color: white;
+     background-color: rgb(245, 91, 1);
+     margin-right: 700px;
+     padding-left: 120px;
+     
+
+
+    
+    
+    }
+
+    .miembrosimg {
+        width:100%;
+        height: auto;
+        
+    }
+ 
+    
+ /*mobile style */
+
+ @media screen and (max-width:577px){
+
+    .portadamiembros{
+        margin-top: 15px;
+        font-family:cursive;
+         text-align: center;
+         color: white;
+    }       
+    
+
+        .miembrosimg {
+            widows: 100%;
+            height: auto;
+            
+        }
+     
+    .sectionmiembro{
+
+        height:150%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+        height: 672px;
+        box-sizing: border-box;
+    }
+ }

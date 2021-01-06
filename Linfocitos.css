@@ -225,44 +225,8 @@ transform: rotate(1deg);
     
     
 }
-/*contacto*/
-
-.cuerpocontacto{
-    
-    background-color:#111916;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    
-    }
-
-/*historia*/
 
 
-.portadahistoria{
-    
-    color: white; 
-    font-family:
-     'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-      'Lucida Sans Unicode', 
-     Geneva, Verdana, sans-serif; 
-     text-align: center;}
-
-
-
-.cuerpohistoria{
-    
-    background-color:#111916;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    }
 
 
 
@@ -284,19 +248,6 @@ transform: rotate(1deg);
 
 
 
-
-/*shop*/
-
-.cuerposhop{
-    
-    background-color:#111916;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    
-    }
-
     .carousel {
         width:640px;
         height:360px;
@@ -306,18 +257,6 @@ transform: rotate(1deg);
         
    }
 
-/*shows*/
-
-.cuerposhows{
- 
-       
-    background-color:#111916;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-    }
 
 
 /*miembros*/
@@ -335,6 +274,7 @@ transform: rotate(1deg);
      background-color: rgb(245, 91, 1);
      margin-right: 700px;
      padding-left: 120px;
+     transform: rotate(-2deg);
      
 
 

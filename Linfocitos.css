@@ -288,33 +288,116 @@ transform: rotate(1deg);
         
     }
  
+    .historia {
+        color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: -30px;
+    background-color: rgb(101, 8, 189);
+margin-right: 120px;
+padding-left: 120px;
+transform: rotate(-2deg);
+    }
+
+    .historia1{
+
+        color: white; 
+        font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    box-sizing: border-box;
+    margin-left: 80px;
+    margin-right: 220px;
+    font-size:large;
+
+    }
+
+    .historia2{
+
+        color: white; 
+        font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align:right;
+    box-sizing: border-box;
+    margin-left: 80px;
+    margin-right: 220px;
+    font-size:large;
+
+    }
+
+    .historia3{
+
+        color: white; 
+        font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    box-sizing: border-box;
+    margin-left: 80px;
+    margin-right: 220px;
+    font-size:large;
+
+    }
     
  /*mobile style */
 
  @media screen and (max-width:577px){
-
-    .portadamiembros{
-        margin-top: 15px;
-        font-family:cursive;
-         text-align: center;
-         color: white;
-    }       
     
 
-        .miembrosimg {
-            widows: 100%;
-            height: auto;
-            
-        }
-     
-    .sectionmiembro{
 
-        height:150%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .cuerpo{
+    
+        background-color: #242422;
+        background-image: url("FOTOS/FOTITO80.jpg");
+        background-size: contain;
         width: 600px;
-        height: 672px;
-        box-sizing: border-box;
-    }
- }
+        
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+         flex-direction:column;
+        
+        
+        
+        }
+        
+        .parrafo1 {
+            color: white; 
+            font-family: 'Roboto', sans-serif;
+            margin-top: 80px;
+            margin-bottom: 60px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size:large;
+            margin-left: 10px;
+            margin-right: 10px;
+        
+            
+           }
+        
+        .video{
+
+            width: 800px;
+            height: 360px;
+            text-align: center;
+            margin-left: -400px;
+            
+
+        }
+
+
+}
+

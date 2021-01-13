@@ -162,7 +162,7 @@ transform: rotate(1deg);
 
 
 .galeria{ 
-    color: white;
+    color: rgb(255, 255, 255);
     font-family:
      'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
       'Lucida Sans Unicode', 
@@ -175,8 +175,11 @@ transform: rotate(1deg);
 }
 
 .Footer {
-    color: white;
-    margin-top: 30px;
+    color: rgb(9, 10, 99);
+    background-color: rgb(255, 255, 255);
+    margin-top: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     word-spacing: 5px;
     letter-spacing: 0.1em;
 }
@@ -294,15 +297,21 @@ transform: rotate(1deg);
     text-align: left;
     margin-top: 60px;
     margin-bottom: -30px;
-    background-color: rgb(101, 8, 189);
+    background-color: rgb(156, 98, 50);
 margin-right: 120px;
 padding-left: 120px;
 transform: rotate(-2deg);
     }
 
     .historia1{
-
-        color: white; 
+     background-image: url(../mi_proyecto_finalDW/FOTOS/93.jpg);
+     background-size: cover;
+     padding-top:60px ;
+     padding-bottom: 60px;
+     padding-left: 10px;
+     padding-right: 10px;
+     border-radius: 60px;
+        color: rgb(236, 236, 236); 
         font-family: 'Roboto', sans-serif;
     margin-top: 80px;
     margin-bottom: 20px;
@@ -310,44 +319,64 @@ transform: rotate(-2deg);
     flex-direction: column;
     text-align:left;
     box-sizing: border-box;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-right: 220px;
-    font-size:large;
+    font-size:medium;
+    transform: rotate(1deg);
 
     }
 
     .historia2{
 
-        color: white; 
+        background-image: url(../mi_proyecto_finalDW/FOTOS/92.jpg);
+     background-size: cover;
+     padding-top:60px ;
+     padding-bottom: 60px;
+     padding-left: 10px;
+     padding-right: 10px;
+     border-radius: 60px;
+        color: rgb(236, 236, 236); 
         font-family: 'Roboto', sans-serif;
-    margin-top: 80px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align:right;
-    box-sizing: border-box;
-    margin-left: 80px;
-    margin-right: 220px;
-    font-size:large;
-
-    }
-
-    .historia3{
-
-        color: white; 
-        font-family: 'Roboto', sans-serif;
-    margin-top: 80px;
+    margin-top:5px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     text-align:left;
     box-sizing: border-box;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-right: 220px;
-    font-size:large;
+    font-size:medium;
+    
+
+    }
+
+    .historia3{
+
+        background-image: url(../mi_proyecto_finalDW/FOTOS/90.jpg);
+     background-size: cover;
+     padding-top:60px ;
+     padding-bottom: 60px;
+     padding-left: 10px;
+     padding-right: 10px;
+     border-radius: 60px;
+        color: rgb(236, 236, 236); 
+        font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-right: 220px;
+    font-size:medium;
+    transform: rotate(-1deg);
+
 
     }
     
+
+
  /*mobile style */
 
  @media screen and (max-width:577px){
@@ -358,14 +387,10 @@ transform: rotate(-2deg);
     
         background-color: #242422;
         background-image: url("FOTOS/FOTITO80.jpg");
-        background-size: contain;
-        width: 600px;
-        
+        width: 100%;
+        max-width: 577px;
+        min-width: 250px;
         background-repeat: no-repeat;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
         display: flex;
          flex-direction:column;
         
@@ -390,12 +415,11 @@ transform: rotate(-2deg);
         
         .video{
 
-            width: 800px;
-            height: 360px;
-            text-align: center;
-            margin-left: -400px;
             
-
+            text-align: center;
+            background-size: contain;
+            display: flex;
+            flex-direction:column;
         }
 
 
